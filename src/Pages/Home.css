@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.home_header a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.home_header a:hover{
+    text-decoration: underline;
+}
+
+.home_headerRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 13vw;
+
+}
+
+.home_body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+}
+.home_body >img{
+    height: 140px;
+    object-fit: contain;
+}
