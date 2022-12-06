@@ -25,7 +25,7 @@ const Home = () => {
          </div>
          <div  className='home_body'>
           <img src='http://1000marcas.net/wp-content/uploads/2019/11/Google-Logo.png'/>
-          <Search/>
+          <Search hideButtons/>
          </div>
     </div>
     
